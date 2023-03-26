@@ -50,6 +50,7 @@ jobs:
         with:
           push: true
           context: api_yamdb/Dockerfile
+          file: Dockerfile
           tags: ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
 
   deploy:
