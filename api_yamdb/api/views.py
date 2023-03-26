@@ -2,6 +2,7 @@ from django.db.models import Avg
 from django.shortcuts import get_object_or_404
 from rest_framework import filters, viewsets
 from rest_framework.pagination import PageNumberPagination
+from reviews.models import Category, Genre, Review, Title
 
 from .custom_mixin import CustomMixin
 from .filters import TitleFilter
@@ -10,7 +11,6 @@ from .permissions import IsAdminOrReadOnly, IsAuthor
 from .serializers import (CategorySerializer, CommentSerializer,
                           CreateTitleSerializer, GenreSerializer,
                           GetTitleSerializer, ReviewSerializer)
-from reviews.models import Category, Genre, Review, Title
 
 
 class CommentViewSet(viewsets.ModelViewSet):
