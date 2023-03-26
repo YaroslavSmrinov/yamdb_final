@@ -1,6 +1,5 @@
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
-
 from users.views import TokenObtainView, UserViewSet, user_sign_up
 
 from .views import (CategoryViewSet, CommentViewSet, GenresViewSet,

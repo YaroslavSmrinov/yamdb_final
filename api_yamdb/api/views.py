@@ -2,7 +2,6 @@ from django.db.models import Avg
 from django.shortcuts import get_object_or_404
 from rest_framework import filters, viewsets
 from rest_framework.pagination import PageNumberPagination
-
 from reviews.models import Category, Genre, Review, Title
 
 from .custom_mixin import CustomMixin
