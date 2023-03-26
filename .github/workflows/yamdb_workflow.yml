@@ -24,4 +24,5 @@ jobs:
         python -m flake8 
         cd api_yamdb/
         pwd
+        ls
         python manage.py test
