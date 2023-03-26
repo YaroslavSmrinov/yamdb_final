@@ -23,6 +23,7 @@ jobs:
       run: |
         cd api_yamdb/
         pwd
+        ls
         python -m flake8
         pytest
 
