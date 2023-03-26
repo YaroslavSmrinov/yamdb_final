@@ -9,7 +9,6 @@ services:
       - ./.env
   web:
     image: boynextdo0r/yamdb_final:latest
-    build: ../api_yamdb
     restart: always
     volumes:
       - static_value:/app/static/
