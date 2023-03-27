@@ -64,7 +64,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          cd api_yamdb/
+          cd ./api_yamdb/
           ls
           pwd
           sudo docker compose stop
