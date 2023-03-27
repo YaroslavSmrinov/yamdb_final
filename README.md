@@ -1,5 +1,5 @@
-[](https://github.com/YaroslavSmrinov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 # Учебный проект: "Блог"
+![GitHub Workflow](https://github.com/YaroslavSmrinov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 ## Описание
 Проект для сбора отзывов на всевозможные произведения [искусства](https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE), оценки отзывов посредством рейтинга и комментариев к отзывам.
 
