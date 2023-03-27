@@ -50,8 +50,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdbl:latest
-          file: api_yamdbl/Dockerfile
+          tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdb:latest
+          file: api_yamdb/Dockerfile
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
