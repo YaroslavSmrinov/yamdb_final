@@ -63,10 +63,8 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
-        run: |
-          pwd
-          ls
         script: |
+          cd api_yamdb/
           sudo docker compose stop
           sudo docker compose rm web
           touch .env
