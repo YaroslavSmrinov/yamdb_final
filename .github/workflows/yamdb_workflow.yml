@@ -23,6 +23,7 @@ jobs:
         pip install flake8
         cd api_yamdb/
         pip install -r requirements.txt
+        pwd
     - name: Test with flake8 and pytest
       run: |
         python -m flake8
