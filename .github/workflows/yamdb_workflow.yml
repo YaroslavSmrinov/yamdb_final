@@ -63,8 +63,10 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
-        script: |
+        run: |
           pwd
+          ls
+        script: |
           sudo docker compose stop
           sudo docker compose rm web
           touch .env
