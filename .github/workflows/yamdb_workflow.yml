@@ -65,6 +65,8 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           cd api_yamdb/
+          ls
+          pwd
           sudo docker compose stop
           sudo docker compose rm web
           touch .env
